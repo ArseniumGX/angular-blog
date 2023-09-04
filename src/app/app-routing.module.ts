@@ -7,15 +7,15 @@ import { PostComponent } from '@pages/post/post.component';
 
 const routes: Routes = [
   {
-    path: '/',
+    path: '',
     component: HomeComponent,
   },
   {
-    path: '/post/:id',
+    path: 'post/:id',
     component: PostComponent,
   },
   {
-    path: '/about',
+    path: 'about',
     component: AboutComponent,
   },
   {

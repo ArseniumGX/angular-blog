@@ -1,1 +1,16 @@
-<p>header works!</p>
+<header class="header">
+  <div class="header__logo">
+    <img class="header__logo__img" src="../../../assets/logo.png" alt="Logo" />
+    <span class="header__logo__text">ArseniumGX</span>
+  </div>
+  <nav class="header__navigation">
+    <ul class="header__navigation__menu">
+      <li class="header__navigation__menu__item">
+        <a [routerLink]="'/'">Home</a>
+      </li>
+      <li class="header__navigation__menu__item">
+        <a [routerLink]="'/about'">Sobre mim</a>
+      </li>
+    </ul>
+  </nav>
+</header>

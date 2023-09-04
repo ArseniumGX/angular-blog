@@ -1,1 +1,15 @@
-/* You can add global styles to this file, and also import other style files */
+@import "./vars";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: $font-primary;
+}
+
+body {
+  background-color: $color-theme;
+  scroll-behavior: smooth;
+  user-select: none;
+  height: 100vh;
+}
