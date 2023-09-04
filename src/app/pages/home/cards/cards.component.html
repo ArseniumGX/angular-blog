@@ -1,0 +1,7 @@
+<div class="card" data-id="{{ _id }}">
+  <img class="card__cover" src="{{ coverPost }}" alt="{{ title }}" />
+  <h4 class="card__title">{{ title }}</h4>
+  <button class="card__button">
+    <a [routerLink]="'post/' + _id">Leia mais</a>
+  </button>
+</div>

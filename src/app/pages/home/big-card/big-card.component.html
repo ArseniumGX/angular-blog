@@ -1,0 +1,8 @@
+<div class="big-card" data-id="{{ _id }}">
+  <img class="big-card__cover" src="{{ postCover }}" alt="" />
+  <h3 class="big-card__title">{{ title }}</h3>
+  <span class="big-card__resume">{{ resume }}</span>
+  <div class="big-card__link-container">
+    <a [routerLink]="'post/' + _id">Leia mais</a>
+  </div>
+</div>

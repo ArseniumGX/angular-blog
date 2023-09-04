@@ -6,6 +6,19 @@
   align-items: center;
   justify-content: center;
 
+  &::before {
+    content: "";
+    display: flex;
+    justify-content: center;
+    background-color: $color-decoration;
+    margin-top: 0.635rem;
+    margin-left: 0;
+    margin-right: 0;
+    height: 0.1rem;
+    width: 90%;
+    border-radius: 50%;
+  }
+
   &__redes {
     display: flex;
     flex-flow: column nowrap;

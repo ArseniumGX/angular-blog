@@ -32,7 +32,9 @@
 
     &__text {
       font-family: $font-alternate;
-      letter-spacing: 1px;
+      letter-spacing: 2px;
+      margin: 0;
+      font-size: 1rem;
     }
   }
 

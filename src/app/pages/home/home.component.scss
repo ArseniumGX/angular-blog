@@ -1,0 +1,10 @@
+.cards {
+  margin: 1rem;
+
+  &__container {
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+}

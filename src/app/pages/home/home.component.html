@@ -1,1 +1,17 @@
-<p>home works!</p>
+<app-big-card
+  [_id]="lastPost._id"
+  [title]="lastPost.title"
+  [postCover]="lastPost.postCover"
+  [resume]="lastPost.resume"
+/>
+<div class="cards">
+  <ul class="cards__container">
+    <li *ngFor="let post of posts">
+      <app-cards
+        [_id]="post._id"
+        [coverPost]="post.postCover"
+        [title]="post.title"
+      />
+    </li>
+  </ul>
+</div>

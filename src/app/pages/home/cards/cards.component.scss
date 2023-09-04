@@ -1,0 +1,36 @@
+@import "../../../../vars";
+
+.card {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  border: $color-decoration 1px solid;
+  border-radius: 4px;
+
+  &__cover {
+    height: 8rem;
+  }
+
+  &__title {
+    text-align: center;
+    margin: 0.5rem;
+  }
+
+  &__button {
+    width: 50%;
+    padding: 0.675rem;
+    border-radius: 8px;
+    outline: none;
+    border: none;
+    background-color: $color-decoration;
+
+    a {
+      color: $color-font-sec;
+      text-decoration: none;
+      font-family: $font-primary;
+      font-weight: 600;
+    }
+  }
+}
