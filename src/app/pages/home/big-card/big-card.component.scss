@@ -6,7 +6,7 @@
   display: flex;
   flex-flow: column nowrap;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
   border: 1px solid $color-decoration;
   padding: 1rem;
   border-radius: 8px;
@@ -17,19 +17,22 @@
   }
 
   &__cover {
-    height: 30%;
+    height: 35%;
   }
 
-  &__title {
-    text-align: center;
-    color: $color-font;
-    font-family: $font-alternate;
-    margin: 1rem 0;
-  }
+  &__texts {
+    &__title {
+      text-align: center;
+      color: $color-font;
+      font-family: $font-alternate;
+    }
 
-  &__resume {
-    font-family: $font-primary;
-    color: $color-font;
+    &__resume {
+      display: block;
+      text-align: center;
+      font-family: $font-primary;
+      color: $color-font;
+    }
   }
 
   &__link-container {

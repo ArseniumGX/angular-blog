@@ -1,0 +1,9 @@
+@media screen and (min-width: 600px) {
+  .big-card {
+    height: 60vh;
+
+    &__cover {
+      height: 60%;
+    }
+  }
+}

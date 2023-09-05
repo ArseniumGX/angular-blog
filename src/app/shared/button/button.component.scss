@@ -1,0 +1,26 @@
+@import "../../../vars";
+
+.button {
+  margin: 1rem;
+
+  &__container {
+    text-decoration: none;
+
+    &__element {
+      padding: 1rem 2rem;
+      border: none;
+      border-radius: 8px;
+      color: $color-font;
+      font-weight: 600;
+      letter-spacing: 1px;
+      background-color: $color-decoration;
+      transition: 0.3s;
+      cursor: pointer;
+
+      &:hover {
+        background-color: $color-hover;
+        color: $color-font-sec;
+      }
+    }
+  }
+}

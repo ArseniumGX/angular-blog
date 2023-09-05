@@ -8,6 +8,7 @@ import { BigCardComponent } from './home/big-card/big-card.component';
 import { HttpClientModule } from '@angular/common/http';
 import { CardsComponent } from './home/cards/cards.component';
 import { RouterModule } from '@angular/router';
+import { SharedModule } from '@shared/shared.module';
 
 @NgModule({
   declarations: [
@@ -18,6 +19,6 @@ import { RouterModule } from '@angular/router';
     BigCardComponent,
     CardsComponent,
   ],
-  imports: [CommonModule, HttpClientModule, RouterModule],
+  imports: [CommonModule, HttpClientModule, RouterModule, SharedModule],
 })
 export class PagesModule {}

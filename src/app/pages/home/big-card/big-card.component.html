@@ -1,8 +1,8 @@
 <div class="big-card" data-id="{{ _id }}">
   <img class="big-card__cover" src="{{ postCover }}" alt="" />
-  <h3 class="big-card__title">{{ title }}</h3>
-  <span class="big-card__resume">{{ resume }}</span>
-  <div class="big-card__link-container">
-    <a [routerLink]="'post/' + _id">Leia mais</a>
+  <div class="big-card__texts">
+    <h3 class="big-card__texts__title">{{ title }}</h3>
+    <span class="big-card__texts__resume">{{ resume }}</span>
   </div>
+  <app-button [location]="'post/' + _id" [label]="'Leia mais'" />
 </div>

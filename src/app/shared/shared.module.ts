@@ -10,9 +10,10 @@ import {
 } from '@ng-icons/bootstrap-icons';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
+import { ButtonComponent } from './button/button.component';
 
 @NgModule({
-  declarations: [HeaderComponent, FooterComponent],
+  declarations: [HeaderComponent, FooterComponent, ButtonComponent],
   imports: [
     CommonModule,
     RouterModule,
@@ -23,6 +24,6 @@ import { FooterComponent } from './footer/footer.component';
       bootstrapTwitter,
     }),
   ],
-  exports: [HeaderComponent, FooterComponent],
+  exports: [HeaderComponent, FooterComponent, ButtonComponent],
 })
 export class SharedModule {}
