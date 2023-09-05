@@ -1,0 +1,66 @@
+@import "../../../vars";
+
+.about {
+  margin: 1rem auto;
+  padding: 1rem;
+
+  &__heading {
+    text-align: center;
+    font-family: $font-alternate;
+    margin-bottom: 1rem;
+    letter-spacing: 1px;
+    font-weight: 600;
+
+    &::after {
+      content: " ";
+      display: flex;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 0.35rem;
+      background-color: $color-decoration;
+      width: 1.75rem;
+      height: 0.35rem;
+      border-radius: 12px;
+    }
+  }
+
+  &__content {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+
+    &__imagem {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 420px;
+      width: 420px;
+      border-radius: 50%;
+      border: $color-decoration 0.45rem solid;
+      transition: 0.3s;
+
+      &:hover {
+        border-color: $color-hover;
+      }
+
+      img {
+        height: auto;
+        width: 400px;
+        border-radius: 50%;
+      }
+    }
+
+    &__paragrafo {
+      text-indent: 0.65rem;
+      font-size: 1rem;
+      text-align: justify;
+      font-family: $font-primary;
+
+      span {
+        text-decoration: line-through;
+      }
+    }
+  }
+}
