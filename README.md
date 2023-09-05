@@ -1,27 +1,23 @@
-# AngularBlog
+# Angular Blog
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.1.
+Projeto de um blog pessoal desenvolvido durante minha maratona de aprendizado com o Angular framework. O objetivo do projeto é por em prática tudo que for vendo durante essa caminhada e ao mesmo tempo aplicando alguns novos conceitos que vejo em paralelo.
 
-## Development server
+## Instalando as dependências
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Execute o comando `npm install` ou `yarn` dentro da pasta raiz do projeto para instalar as dependências.
 
-## Code scaffolding
+## Iniciando a aplicação
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Execute o comando `ng serve` ou `npm run start` ou `yarn start` para iniciar a aplicação em modo dev. Com a aplicação rodando, acesse `http://localhost:4200/`. A aplicação irá recarregar automaticamente se você fizer qualquer alteração nos arquivos fontes do projeto.
 
-## Build
+## Features disponiveis
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+- [x] Responsividade
+- [x] Redirecionamento de rotas
+- [x] Gerenciamento de estados
+- [ ] Leitura de um post em arquivo \*.md
+- [ ] Montagem dinâmica dos posts
 
-## Running unit tests
+## License
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+This project is licensed by [MIT License](./LICENSE).
