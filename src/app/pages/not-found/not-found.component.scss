@@ -1,0 +1,26 @@
+@import "../../../vars";
+
+.not-found {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  margin: 1rem;
+
+  &__imagem {
+    max-height: 24rem;
+  }
+
+  &__mensagem {
+    display: inline-block;
+    text-align: center;
+    font-weight: 700;
+    letter-spacing: 1px;
+  }
+  &__textos {
+    &__paragrafo {
+      text-align: center;
+    }
+  }
+}
